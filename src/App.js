@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+import Resume from "./components/Resume";
 
 function App() {
   return (

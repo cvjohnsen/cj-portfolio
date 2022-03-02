@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-
-const Home = () => {
+const About = () => {
   return (
     <div>
       <h1></h1>
@@ -8,4 +7,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;

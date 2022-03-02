@@ -4,18 +4,18 @@ import {
   FETCH_AFFIRM_FAIL,
 } from "../actions/actions";
 
-const initialState = {
+let initialState = {
   affirmation: "",
   isLoading: false,
   error: "",
 };
 
-export default (state = initialState, action) => {
+function reducer(state = initialState, action) {
   switch (action.type) {
     case FETCH_AFFIRM_START:
       return {
         ...state,
-        affirmation: [],
+        affirmation: "",
         isLoading: true,
       };
     case FETCH_AFFIRM_SUCCEED:
@@ -35,4 +35,6 @@ export default (state = initialState, action) => {
     default:
       return state;
   }
-};
+}
+
+export default reducer;

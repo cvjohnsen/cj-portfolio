@@ -5,25 +5,28 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume";
+import About from "./components/About";
+import Projects from "./components/Projects";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1> Cynthia V. Johnsen </h1>
-        <NavBar />
-      </header>
-
+      <NavBar />
       <div className="Body">
         <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
           <Route path="/resume">
             <Resume />
+          </Route>
+          <Route path="/projects">
+            <Projects />
           </Route>
           <Route exact path="/">
             <Home />
           </Route>
         </Switch>
-        <Footer />
       </div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -39,6 +42,7 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <Footer />
     </div>
   );
 }

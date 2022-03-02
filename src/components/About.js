@@ -17,7 +17,8 @@ const About = () => {
 const fonts = {
   border: "solid 1px",
   color: "#0F0F0F",
-  marginTop: "50px",
+  margin: "30px",
+  backgroundColor: "#BCABAE",
   fontFamily: "Shadows Into Light Two",
   textAlign: "center",
 };

@@ -12,7 +12,7 @@ const Home = () => {
         <br />
         <h2>
           I'm a Software Engineer who specializes in front end development but
-          not limited.
+          not limited to.
         </h2>
       </div>
     </div>

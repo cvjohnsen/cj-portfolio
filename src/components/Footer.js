@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Footer = () => {
   return (
     <div style={container}>
@@ -15,10 +13,11 @@ const container = {
   // display: "flex",
   // justifyContent: "space-around",
   backgroundColor: "#BCABAE",
-  color: "white",
+  color: "#0F0F0F",
   height: "40px",
   marginTop: "300px",
   fontFamily: "Shadows Into Light Two",
+  textAlign: "center"
 };
 
 export default Footer;

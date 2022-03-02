@@ -1,18 +1,29 @@
 import { Link } from "react-router-dom";
+import logo from "../web_logo.png";
+
 const NavBar = () => {
   return (
     <nav style={container}>
-      {/* <div>
+      <div>
         <Link to="/">
-          <img src={logo} width="40px" alt="" />
+          <img src={logo} width="65px" alt="" />
         </Link>
-      </div> */}
+      </div>
 
-      <Link to="/" style={{ color: "white" }}>
+      <Link to="/" style={{ color: "#0F0F0F" }}>
         Home
       </Link>
-      <Link to="/affirmation" style={{ color: "white" }}>
+
+      <Link to="/about" style={{ color: "#0F0F0F" }}>
+        About
+      </Link>
+
+      <Link to="/resume" style={{ color: "#0F0F0F" }}>
         Resume
+      </Link>
+
+      <Link to="/projects" style={{ color: "#0F0F0F" }}>
+        Projects
       </Link>
     </nav>
   );
@@ -25,6 +36,7 @@ const container = {
   color: "white",
   height: "40px",
   fontFamily: "Shadows Into Light Two",
+
 };
 
 export default NavBar;

@@ -9,7 +9,7 @@ const Home = () => {
       </div>
 
       <div style={fonts}>
-        <h1>Hello, welcome to my portfolio site.</h1>
+        <h1>Hello, welcome to my portfolio site</h1>
         <br />
         <p className="intro">
           I'm Cynthia V. Johnsen, I'm a Software Engineer <br />

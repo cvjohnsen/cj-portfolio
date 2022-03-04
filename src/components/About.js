@@ -15,12 +15,13 @@ const About = () => {
 };
 
 const fonts = {
-  border: "solid 1px",
-  color: "#0F0F0F",
-  margin: "30px",
-  backgroundColor: "#BCABAE",
+  // border: "solid 1px",
+  // color: "#0F0F0F",
+  margin: "50px",
+  // backgroundColor: "#BCABAE",
   fontFamily: "Shadows Into Light Two",
   textAlign: "center",
+  height: "600px",
 };
 
 export default About;

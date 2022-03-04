@@ -1,4 +1,5 @@
 import CVJ from "../cvj.jpg";
+import AffirmList from "./AffirmList";
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
         </p>
         <br />
         <br />
-        <h2>Food for brain:</h2>
+        <AffirmList />
       </div>
     </div>
   );
@@ -26,6 +27,7 @@ const body = {
   display: "flex",
   justifyContent: "space-around",
   margin: "50px",
+  height: "600px",
 };
 
 const fonts = {

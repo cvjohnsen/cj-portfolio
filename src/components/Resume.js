@@ -1,7 +1,9 @@
+import resume from "../cvj_resume.png";
+
 const Resume = () => {
   return (
     <div>
-      <h1></h1>
+      <img src={resume} width="500px" alt="" />
     </div>
   );
 };

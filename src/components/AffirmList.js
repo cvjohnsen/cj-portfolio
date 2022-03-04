@@ -10,20 +10,17 @@ const mapStateToProps = (state) => ({
 });
 
 function AffirmList(props) {
+  const { fetchAffirm, isLoading, affirmation, error } = props;
   useEffect(() => {
-    props.fetchAffirm();
-  }, []);
+    fetchAffirm();
+  }, [fetchAffirm]);
   console.log(props);
 
   return (
     <div>
-      {props.isLoading ? "LOADING AFFIRMATION" : ""}
-      {props.error ? props.error : ""}
-      {props.affirmation ? (
-        <Quotes quote={props.affirmation} key={props.affirmation.id} />
-      ) : (
-        ""
-      )}
+      {isLoading ? "LOADING AFFIRMATION" : ""}
+      {error ? props.error : ""}
+      {affirmation ? <Quotes quote={affirmation} key={affirmation.id} /> : ""}
     </div>
   );
 }

@@ -27,7 +27,7 @@ const body = {
   display: "flex",
   justifyContent: "space-around",
   margin: "50px",
-  height: "600px",
+  height: "550px",
 };
 
 const fonts = {

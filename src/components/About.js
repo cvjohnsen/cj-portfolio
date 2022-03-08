@@ -21,7 +21,7 @@ const fonts = {
   // backgroundColor: "#BCABAE",
   fontFamily: "Shadows Into Light Two",
   textAlign: "center",
-  height: "600px",
+  height: "550px",
 };
 
 export default About;

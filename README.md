@@ -1,8 +1,5 @@
 Wireframe:
-
-
-
-
+![cj_portfolio_wireframe](https://user-images.githubusercontent.com/79131508/157259223-f669882a-53d2-4c47-8aac-aa1aaef02103.jpg)
 
 Netlify:
 https://nifty-edison-7934f9.netlify.app/

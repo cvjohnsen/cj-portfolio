@@ -4,6 +4,14 @@ Wireframe:
 Netlify:
 https://nifty-edison-7934f9.netlify.app/
 
+API: https://dulce-affirmations-api.herokuapp.com/affirmation
+
+*Site features, cycle through affirmation from the API. Navbar to navigate through the internal links.
+
+*Upcoming Features, More styling, add on some font icons, and responsive design will be implemnted soon. Load up more portfolio projects.
+
+*For this project, logo is made using Adobe Illustrator.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

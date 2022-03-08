@@ -8,7 +8,7 @@ API: https://dulce-affirmations-api.herokuapp.com/affirmation
 
 *Site features, cycle through affirmation from the API. Navbar to navigate through the internal links.
 
-*Upcoming Features, More styling, add on some font icons, and responsive design will be implemnted soon. Load up more portfolio projects.
+*Upcoming Features, More styling, add on some font icons, and responsive design will be implemented soon. Load up more portfolio projects.
 
 *For this project, logo is made using Adobe Illustrator.
 
